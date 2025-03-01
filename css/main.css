@@ -5,14 +5,15 @@
   align-items: center;
   border: 1px solid #ddd;
   padding: 15px;
-  background: #fafbff;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(173, 216, 230, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   width: 100%;
-  
-  border-radius: 8px;
+  max-width: 800px;
+  border-radius: 10px;
   box-sizing: border-box;
+  margin: 20px auto;
 }
 
 /* Image Styling */
@@ -26,9 +27,11 @@
 /* Price & Buy Button Container */
 .single-phone-price-buy {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 5px 15px;
+  padding: 10px 15px;
+  gap: 15px; /* Ensures spacing */
 }
 
 /* Price Label */
@@ -41,26 +44,31 @@
   font-size: 12px;
   color: #888;
   display: block;
+  text-transform: uppercase;
 }
 
 .single-phone-price {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   color: #07184f;
 }
 
+/* Buy Button */
 .single-phone-buy {
-  color: #07184f;
+  color: white!important;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-  padding: 6px 12px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #07184f, #1a3da6);
   border-radius: 5px;
+  text-align: center;
+  white-space: nowrap; /* Prevents wrapping */
+  transition: 0.3s;
 }
 
 .single-phone-buy:hover {
-  background: #07184f;
-  color: #ffffff;
+  background: linear-gradient(135deg, #1a3da6, #07184f);
 }
 
 /* Table Styling */
@@ -68,27 +76,24 @@
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-  background: none!important;
 }
 
 .single-phone-info tr {
+  border-bottom: 1px solid #ddd;
   background: none!important;
-  
 }
 
 .single-phone-info td {
   padding: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ccc;
   text-align: left;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /* Icons inside Table */
 .single-phone-info td img {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
   vertical-align: middle;
 }
-
-/* Single Phone Table Ends */
