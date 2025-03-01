@@ -1,5 +1,4 @@
 /* Global */
-
 .global-800-container {
   margin: 0 auto!important;
   max-width: 800px!important;
@@ -106,11 +105,12 @@
 }
 
 /* Phones Specs table */
-
 .specs-table {
-  border-collapse: collapse;
-  max-width: 800px;
-  width: 100%;
+  border-collapse: separate!important;
+  border-spacing: 0!important;
+  border-radius: 8px!important;
+  overflow: hidden!important;
+  max-width: 800px!important;
   margin: 0 auto!important;
 }
 .specs-table td{
@@ -124,7 +124,18 @@
   background: royalblue;
   color: white;
 }
-
+.specs-table tr:first-child th:first-child {
+  border-top-left-radius: 8px!important;
+}
+.specs-table tr:first-child th:last-child {
+  border-top-right-radius: 8px!important;
+}
+.specs-table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px!important;
+}
+.specs-table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px!important;
+}
 .specs-table td:first-child {
   white-space: nowrap!important;
 }
