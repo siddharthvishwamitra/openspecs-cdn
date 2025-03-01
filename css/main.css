@@ -18,7 +18,7 @@
 
 /* Image Styling */
 .single-phone-table img {
-  width: 200px;
+  width: 200px!important;
   height: auto;
   object-fit: cover;
   margin-bottom: 10px;
