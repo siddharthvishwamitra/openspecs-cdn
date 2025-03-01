@@ -108,6 +108,7 @@
 .specs-table {
   border-collapse: collapse;
   max-width: 800px;
+  width: 100%;
 }
 .specs-table td{
   padding: 8px;
