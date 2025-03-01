@@ -113,11 +113,13 @@
   max-width: 800px!important;
   margin: 0 auto!important;
 }
+.specs-table tr {
+  background: none!important;
+}
 .specs-table td{
   padding: 8px;
   border: 1px solid #e1e1e1;
   font-size: 15px!important;
-  background: none!important;
 }
 .specs-table th {
   background: linear-gradient(135deg, #07184f, #1a3da6);
