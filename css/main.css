@@ -19,7 +19,7 @@
 /* Image Styling */
 .single-phone-table img {
   width: 200px!important;
-  height: auto;
+  height: auto!important;
   object-fit: cover;
   margin-bottom: 10px;
 }
