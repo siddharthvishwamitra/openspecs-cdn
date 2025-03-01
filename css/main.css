@@ -19,7 +19,6 @@
 /* Image Styling */
 .single-phone-table img {
   width: 200px!important;
-  height: auto!important;
   object-fit: cover;
   margin-bottom: 10px;
 }
@@ -56,14 +55,14 @@
 /* Buy Button */
 .single-phone-buy {
   color: white!important;
-  text-decoration: none;
+  text-decoration: none!important;
   font-size: 14px;
   font-weight: bold;
   padding: 10px 16px;
   background: linear-gradient(135deg, #07184f, #1a3da6);
   border-radius: 5px;
   text-align: center;
-  white-space: nowrap; /* Prevents wrapping */
+  white-space: nowrap;
   transition: 0.3s;
 }
 
