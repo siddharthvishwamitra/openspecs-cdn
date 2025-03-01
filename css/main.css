@@ -96,3 +96,19 @@
   margin-right: 8px;
   vertical-align: middle;
 }
+
+/* Phones Specs table */
+
+.specs-table {
+  border-collapse: collapse;
+}
+.specs-table td{
+  padding: 8px;
+  border: 1px solid #e1e1e1;
+}
+.specs-table th {
+  border: 1px solid #e1e1e1;
+  padding: 8px;
+  background: royalblue;
+  color: white;
+}
