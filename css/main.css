@@ -101,6 +101,7 @@
 
 .specs-table {
   border-collapse: collapse;
+  max-width: 800px;
 }
 .specs-table td{
   padding: 8px;
@@ -112,4 +113,8 @@
   padding: 8px;
   background: royalblue;
   color: white;
+}
+
+.specs-table td:first-child {
+  white-space: nowrap!important;
 }
