@@ -1,7 +1,9 @@
 /* Global */
 
-.margin-0-auto {
+.global-800-container {
   margin: 0 auto!important;
+  max-width: 800px!important;
+  width: 100%!important;
 }
 
 /* Single Phone Table */
