@@ -102,6 +102,7 @@
 .specs-table {
   border-collapse: collapse;
   max-width: 800px;
+  margin: 0 auto;
 }
 .specs-table td{
   padding: 8px;
