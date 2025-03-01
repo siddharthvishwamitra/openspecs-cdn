@@ -72,13 +72,16 @@
   background: none!important;
 }
 
+.single-phone-info tr {
+  background: none!important;
+  
+}
+
 .single-phone-info td {
   padding: 10px;
   padding-bottom: 5px;
   border-bottom: 1px solid #ccc;
   text-align: left;
-  background: none!important;
-  border: none!important;
 }
 
 /* Icons inside Table */
