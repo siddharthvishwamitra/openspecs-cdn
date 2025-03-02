@@ -265,11 +265,10 @@
     font-size: 16px !important;
     margin-bottom: 6px !important;
     color: #222 !important;
-    padding-left: 22px!important;
+    text-align: center!important;
 }
 .phone-under-money-pros ul, .phone-under-money-cons ul {
     padding: 0 !important;
-    margin: 0 !important;
 }
 
 /* Icon for Pros & Cons */
