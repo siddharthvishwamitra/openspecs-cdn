@@ -248,6 +248,8 @@
     font-weight: bold !important;
     text-decoration: none !important;
     color: #07184f !important;
+    width: 100%;
+    text-align: center;
 }
 .phone-under-money-full-specs:hover {
     text-decoration: underline !important;
@@ -259,9 +261,19 @@
     justify-content: space-between !important;
     gap: 20px !important;
     margin-top: 15px !important;
+    border-top: 1px solid #e8e8e8;
 }
 .phone-under-money-pros, .phone-under-money-cons {
-    width: 48% !important;
+    width: 48%!important;
+    border: 1px solid #e8e8e8;
+    padding: 5px;
+    border-radius: 8px
+}
+.phone-under-money-pros {
+background-color: rgba(0, 255, 0, 0.1);
+}
+.phone-under-money-cons {
+background-color: rgba(255, 0, 0, 0.1);
 }
 .phone-under-money-pros h4, .phone-under-money-cons h4 {
     font-size: 16px !important;
@@ -284,7 +296,7 @@
 
 .phone-under-money-pros ul li::before {
     content: "" !important;
-    background: url('https://cdn.openspecs.in/icons/cons.png') no-repeat center center !important;
+    background: url('https://cdn.openspecs.in/icons/pros.png') no-repeat center center !important;
     background-size: contain !important;
     width: 16px !important; 
     height: 16px !important;
