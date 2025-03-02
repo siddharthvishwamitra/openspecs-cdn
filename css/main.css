@@ -208,7 +208,7 @@
     color: #444 !important;
 }
 .phone-under-money-spec-list li {
-    margin-bottom: 12px !important;
+    list-style: none!important;
 }
 
 @media (max-width: 789px) {
@@ -273,7 +273,7 @@
     font-size: 14px !important;
 }
 .phone-under-money-pros li, .phone-under-money-cons li {
-    margin-bottom: 5px !important;
+  list-style: none!important;
 }
 
 /* Icon for Pros & Cons */
@@ -282,6 +282,7 @@
     padding-left: 22px !important; /* Space for the icon */
     font-size: 14px !important;
     margin-bottom: 5px !important;
+    list-style: none!important;
 }
 
 .phone-under-money-pros ul li::before {
