@@ -265,7 +265,7 @@
     font-size: 16px !important;
     margin-bottom: 6px !important;
     color: #222 !important;
-    padding-left: 22px!important;
+    padding-left: 12px!important;
 }
 .phone-under-money-pros ul, .phone-under-money-cons ul {
     padding: 0 !important;
@@ -275,7 +275,7 @@
 .phone-under-money-pros ul li, .phone-under-money-cons ul li {
     list-style: none!important;
     position: relative !important;
-    padding-left: 22px !important; /* Space for the icon */
+    padding-left: 12px !important; /* Space for the icon */
     font-size: 14px !important;
     margin-bottom: 0!important;
 }
