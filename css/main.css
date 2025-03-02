@@ -289,7 +289,7 @@ background-color: rgba(255, 0, 0, 0.1);
 .phone-under-money-pros ul li, .phone-under-money-cons ul li {
     list-style: none!important;
     position: relative !important;
-    padding-left: 22px !important;
+    padding-left: 0px !important;
     font-size: 14px !important;
     margin-bottom: 0!important;
 }
@@ -301,8 +301,8 @@ background-color: rgba(255, 0, 0, 0.1);
     width: 16px !important; 
     height: 16px !important;
     position: absolute !important;
-    left: 0 !important;
-    top: 3px !important;
+    left: -20px !important;
+    top: 6px !important;
 }
 .phone-under-money-cons ul li::before {
   content: "" !important;
@@ -311,7 +311,7 @@ background-color: rgba(255, 0, 0, 0.1);
   width: 16px !important;
   height: 16px !important;
   position: absolute !important;
-  left: 0 !important;
-  top: 3px !important;
+  left: -20px !important;
+  top: 6px !important;
 }
 /* Best phones under CSS ENDS */
