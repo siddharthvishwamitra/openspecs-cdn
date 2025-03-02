@@ -224,6 +224,7 @@
     font-size: 12px !important;
     color: #888 !important;
     display: block !important;
+    margin-bottom: -5px!important;
 }
 
 /* Icons & Details */
