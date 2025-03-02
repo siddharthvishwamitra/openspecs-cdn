@@ -317,7 +317,8 @@ background-color: rgba(255, 0, 0, 0.1);
 
 .phone-under-money-spec-detail .icon {
   display: inline-block;
-  width: 24px !important;
+  width: 24px;
+  height: 24px;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 4px;
