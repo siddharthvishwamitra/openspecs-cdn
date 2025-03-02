@@ -193,8 +193,8 @@
     font-size: 20px !important;
     font-weight: bold !important;
     background: linear-gradient(135deg, #07184f, #1a3da6)!important;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
 }
 
 /* Right Section (Specs List) */
