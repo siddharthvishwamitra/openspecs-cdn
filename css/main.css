@@ -208,7 +208,6 @@
 }
 .phone-under-money-spec-list li {
     list-style: none!important;
-    line-height: 1!important;
 }
 
 @media (max-width: 789px) {
@@ -226,6 +225,7 @@
     color: #888 !important;
     display: block !important;
     margin-bottom: -12px !important;
+    line-height: 1!important;
 }
 
 /* Icons & Details */
@@ -235,6 +235,7 @@
     gap: 8px !important;
     font-size: 14px !important;
     text-align: center!important;
+    line-height: 1!important;
 }
 .phone-under-money-spec-icon {
     width: 18px !important;
@@ -280,7 +281,7 @@
     padding-left: 22px !important;
     font-size: 14px !important;
     margin-bottom: 0!important;
-    line-height: 1!important;
+    line-height: 1.2!important;
 }
 
 .phone-under-money-pros ul li::before {
