@@ -210,6 +210,15 @@
     list-style: none!important;
 }
 
+@media (max-width: 789px) {
+  .phone-under-money-left {
+    width: 40% !important;
+  }
+  .phone-under-money-right {
+  width: 60% !important;
+}
+}
+
 /* Labels (small, light text above details) */
 .phone-under-money-spec-label {
     font-size: 12px !important;
