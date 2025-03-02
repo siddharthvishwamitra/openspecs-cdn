@@ -192,7 +192,7 @@
 .phone-under-money-price {
     font-size: 20px !important;
     font-weight: bold !important;
-    color: #07184f !important;
+    color: #07184f;
 }
 
 /* Right Section (Specs List) */
@@ -203,7 +203,7 @@
     list-style: none !important;
     padding: 0 !important;
     font-size: 14px !important;
-    color: #444 !important;
+    color: black;
 }
 .phone-under-money-spec-list li {
     list-style: none!important;
@@ -221,7 +221,7 @@
 /* Labels (small, light text above details) */
 .phone-under-money-spec-label {
     font-size: 12px !important;
-    color: #888 !important;
+    color: #888;
     display: block !important;
     margin-bottom: -5px!important;
 }
@@ -246,7 +246,7 @@
     margin-top: 10px !important;
     font-weight: bold !important;
     text-decoration: none !important;
-    color: #07184f !important;
+    color: #07184f;
     width: 100%;
     text-align: center;
 }
@@ -276,7 +276,7 @@ background-color: rgba(255, 0, 0, 0.1);
 .phone-under-money-pros h4, .phone-under-money-cons h4 {
     font-size: 16px !important;
     margin-bottom: 6px !important;
-    color: #222 !important;
+    color: black;
     text-align: center!important;
 }
 .phone-under-money-pros ul, .phone-under-money-cons ul {
