@@ -314,4 +314,21 @@ background-color: rgba(255, 0, 0, 0.1);
   left: -20px !important;
   top: 6px !important;
 }
+
+.phone-under-money-spec-detail .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.phone-under-money-spec-detail .icon.processor { background-image: url("https://cdn.openspecs.in/icons/processor.png"); }
+.phone-under-money-spec-detail .icon.screen { background-image: url("https://cdn.openspecs.in/icons/screen.png"); }
+.phone-under-money-spec-detail .icon.camera { background-image: url("https://cdn.openspecs.in/icons/camera.png"); }
+.phone-under-money-spec-detail .icon.battery { background-image: url("https://cdn.openspecs.in/icons/battery.png"); }
+.phone-under-money-spec-detail .icon.memory { background-image: url("https://cdn.openspecs.in/icons/memory.png"); }
 /* Best phones under CSS ENDS */
+
