@@ -210,15 +210,6 @@
     list-style: none!important;
 }
 
-@media (max-width: 789px) {
-  .phone-under-money-left {
-    width: 40% !important;
-  }
-  .phone-under-money-right {
-  width: 60% !important;
-}
-}
-
 /* Labels (small, light text above details) */
 .phone-under-money-spec-label {
     font-size: 12px !important;
@@ -271,16 +262,14 @@
     padding: 0 !important;
     font-size: 14px !important;
 }
-.phone-under-money-pros li, .phone-under-money-cons li {
-  list-style: none!important;
-}
 
 /* Icon for Pros & Cons */
 .phone-under-money-pros ul li, .phone-under-money-cons ul li {
+    list-style: none!important;
     position: relative !important;
     padding-left: 22px !important; /* Space for the icon */
     font-size: 14px !important;
-    list-style: none!important;
+    margin-bottom: 0!important;
 }
 
 .phone-under-money-pros ul li::before {
