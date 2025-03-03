@@ -318,12 +318,15 @@ background-color: rgba(255, 0, 0, 0.1);
 
 /* Simple Table for 5 Phones */
   .simple-table-5 {
-    width: 100%;
+    width: 100%!important;
     border-spacing: 0;
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid #ddd;
     max-width: 800px;
+  }
+  .simple-table-5 tr {
+    background: none!important;
   }
   .simple-table-5 th, .simple-table-5 td {
     border: 1px solid #ddd;
